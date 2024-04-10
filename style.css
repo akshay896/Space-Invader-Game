@@ -1,0 +1,38 @@
+.grid{
+  width: 300px;
+  height: 300px;
+  border: solid 1px black;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.invader{
+  background-color: yellow;
+  border-radius: 10px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);}
+.shooter{
+  background-color: white;
+  clip-path: polygon(50% 1%, 100% 100%, 69% 76%, 74% 92%, 50% 80%, 26% 92%, 31% 76%, 0 100%);}
+  .laser{
+  background-color: orange;
+  border-radius: 10px;
+}
+.boom{
+  background-color: red;
+  border-radius: 10px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
